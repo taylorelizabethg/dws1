@@ -1,0 +1,23 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	}
+h1 {
+	background-color: rgb(255,59,119);
+	color: #CDFF00;
+	}
+p{ padding: 5px; margin: 0px;}
+p.four{
+	background-color: rgb(234,233,255);
+	}
+p.three{
+	background-color: #B8B89F;
+	}
+p.two{
+	background-color: rgb(255,59,119);
+	}
+p.one{
+	background-color: #CDFF00;
+	}
+p.zero{
+	background-color: rgb(82,101,107);
+	}
