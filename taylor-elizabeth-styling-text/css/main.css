@@ -1,38 +1,61 @@
+@font-face {
+	font-family: "Mine";
+	src: url('http://fonts.googleapis.com/css?family=Oxygen');}
 body{
-	background-color: rgb(73,91,105); 
-	font-family: Gill Sans, Arial, sans-serif;
+	background-color: #75838C; 
+	font-family: Mine, Arial, sans-serif;
 	} /*this color came form http://www.colourlovers.com/palette/3152658/Small_Fish_25*/
 h1{
-	background-color: white;
+	line-height: 72pt;
+	font-size: 36pt;
+	color: white;
+	text-transform: uppercase;
 	}
 h2{
+	letter-spacing: 0.2em;
+	text-transform: capitalize;
 	background-color: rgb(208,178,170) /*Creme Light from same above page*/
 	}
 h3{
+	letter-spacing: 0.2em;
 	background-color: #BB971D;
+	text-transform: capitalize;
 	background-color: hsl(3.0%,50%);
+	font-size: 150%
+	
 	}
 h4{
-	color: white;
-	text-shadow: 3px 1px #000000;
+	font-size: 150%;
+	letter-spacing:0.2em;
+	text-transform: capitalize;
 	}
 p{
-	background-color: #75838C;
+	font:normal normal bold large normal default;
+	
 	}
 #from{
-	background-color: rgb(73,91,105);
 	text-align: right;
 	}
 #link{
-	background-color: rgb(73,91,105);
 	text-align: right;
 	}
 ul{
+	font: italic normal bolder large normal default;
+	text-transform: capitalize;
 	color:rgb(208,178,170);
-	background-color: rgb(0,0,0); 
-	opacity: 0.25;
+	
 	}
 ol{
-	color:#BB971D;
-	text-shadow: 1px 1px #000000;
+	font: italic normal bolder large normal default;
+	color:rgb(208,178,170);
 	}
+a:link { 
+	color: white; 
+	text-decoration: underline;}
+a:visited { 
+	color: black;}
+a:hover { 
+	color: deeppink; 
+	text-decoration: blink;}
+a:active { 
+	color: black;}
