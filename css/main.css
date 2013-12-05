@@ -1,0 +1,38 @@
+body{
+	background-color: rgb(73,91,105); 
+	font-family: Gill Sans, Arial, sans-serif;
+	} /*this color came form http://www.colourlovers.com/palette/3152658/Small_Fish_25*/
+h1{
+	background-color: white;
+	}
+h2{
+	background-color: rgb(208,178,170) /*Creme Light from same above page*/
+	}
+h3{
+	background-color: #BB971D;
+	background-color: hsl(3.0%,50%);
+	}
+h4{
+	color: white;
+	text-shadow: 3px 1px #000000;
+	}
+p{
+	background-color: #75838C;
+	}
+#from{
+	background-color: rgb(73,91,105);
+	text-align: right;
+	}
+#link{
+	background-color: rgb(73,91,105);
+	text-align: right;
+	}
+ul{
+	color:rgb(208,178,170);
+	background-color: rgb(0,0,0); 
+	opacity: 0.25;
+	}
+ol{
+	color:#BB971D;
+	text-shadow: 1px 1px #000000;
+	}
