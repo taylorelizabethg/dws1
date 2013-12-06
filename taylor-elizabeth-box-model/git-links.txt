@@ -1,4 +1,3 @@
-https://github.com/taylorelizabethg/dws1/tree/gh-pages/taylor-elizabeth-styling-text
+https://github.com/taylorelizabethg/dws1/tree/gh-pages/taylor-elizabeth-box-model
 
-http://taylorelizabethg.github.io/dws1/taylor-elizabeth-styling-text/styling-text.html
-
+http://taylorelizabethg.github.io/dws1/taylor-elizabeth-box-model/box-model.html
