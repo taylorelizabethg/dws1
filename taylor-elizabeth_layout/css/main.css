@@ -3,17 +3,17 @@
 	src: url('http://fonts.googleapis.com/css?family=Oxygen');}
 body{
 	box-shadow: 0 0 15px #777666;
-	max-width: 800px;
-	margin: 15px auto 15px auto;
+	max-width: 99%;
+	margin: .019em auto .019em auto;
 	border: 5px dotted #BB971D;
 	border-radius: 15px;/*5px is not enough*/
-	padding: 5px;
+	padding: .006em;
 	background-color: rgb(208,178,170); 
 	font-family: Mine, Arial, sans-serif;
 	 /*this color came form http://www.colourlovers.com/palette/3152658/Small_Fish_25*/
 	}
 h1{
-	margin: 10px auto 10px auto;
+	margin: .013em auto .013em auto;
 	line-height: 72pt;
 	font-size: 36pt;
 	color: white;
@@ -23,16 +23,16 @@ h1{
 h2{
 	letter-spacing: 0.2em;
 	text-transform: capitalize;
-	background-color: rgb(208,178,170) 
-	width: 250px;
+	background-color: rgb(208,178,170); 
+	width: .313em;
 	text-align: center;
 	}
 h3{
 	letter-spacing: 0.2em;
 	text-transform: capitalize;
 	background-color: hsl(3.0%,50%);
-	font-size: 150%
-	width: 350px;
+	font-size: 150%;
+	width: .438em;
 	text-align: center;
 	}
 h4{
@@ -53,7 +53,7 @@ h4{
 	}
 p{
 	font:normal normal bold large normal default;
-	padding: 10px; 
+	padding: 0.013em; 
 	}
 ul{
 	font: italic normal bolder large normal default;
@@ -61,7 +61,7 @@ ul{
 	color:#75838C;
 	list-style-type: upper-alpha;
 	border-bottom: 2px solid #000;
-	padding-bottom: 5px;
+	padding-bottom: .006em;
 	
 	}
 ol{
@@ -73,9 +73,20 @@ a:link {
 	color: white; 
 	text-decoration: underline;}
 a:visited { 
-	color: black;}
+	color: black;
+	}
 a:hover { 
 	color: deeppink; 
-	text-decoration: blink;}
+	text-decoration: blink;
+	}
 a:active { 
-	color: black;}
+	color: black;
+	}
+#column1of2, #column2of2, #column3of3{
+	float: left;
+	width: 31%;
+	margin: 1%;
+	}
+.clear{
+	clear: left;
+	}
