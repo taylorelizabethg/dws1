@@ -12,9 +12,7 @@ body{
 	font-family: Mine, Arial, sans-serif;
 	 /*this color came form http://www.colourlovers.com/palette/3152658/Small_Fish_25*/
 	}
-#style{
-	background-image: url("images/sand-blossom");
-	}
+
 h1{
 	margin: .013em auto .013em auto;
 	line-height: 72pt;
@@ -53,6 +51,9 @@ h4{
 	}
 #link{
 	text-align: right;
+	}
+#intro{
+	background-image: url("images/sand-blossom");
 	}
 p{
 	font:normal normal bold large normal default;
