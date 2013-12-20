@@ -2,10 +2,10 @@
 body { 	
 	color: #123625; 
 	background-color: #501B1D; 
-	background-image: url("images/sand-blossom.gif"); 	
+	/*background-image: url("images/sand-blossom.gif"); */	
 	font-family: Arial, Verdana, sans-serif; 
-	
 	}
+	
 em{
 	color: #501B1D;
 	}
@@ -21,11 +21,12 @@ em{
 		}
 
 h3 {
+
 text-align: center;
 	}
 	
-#menu{
-	text-align: center;
+table{
+	text-align: left;
 	text-transform: uppercase;
 	}
 
@@ -34,10 +35,14 @@ blockquote{ float: left;
 	font-size: 115%; 
 	margin: 0px 0px 5px 5px; 
 	padding: 5px;
-	border-top: 3px dotted #665544; 	
-	border-bottom: 3px dotted #665544;}
-	}
-		
+	border-top: 3px double #665544; 	
+	border-bottom: 3px double #665544;}
+
+h2{
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: blink;
+	}		
 #navigation{	
 	list-style-type: none;
 	text-align: center;
@@ -49,12 +54,27 @@ h3{
 	font-size: 250%;
 	}
 	
-.column1of2 { float: left; width: 40%; margin: 2%;}
-.column2of2 { float: right; width: 40%; margin: 2%}
+/*home, #dine, #carry, #catering, #locations, #contact {
+	float:center:
+	width:65%;
+	margin; 1%;
+	}*/
+		
+.column1of2 { float: left; 
+	width: 40%; 
+	margin: 2%;
+	}
+
+.column2of2 { float: right; 
+	width: 40%; 
+	margin: 2%
+	}
+
 .clear{
 	clear: left;
 	clear: right;
 	}
+
 footer{
 	text-align: right;
 	}
